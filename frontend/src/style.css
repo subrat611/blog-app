@@ -38,6 +38,7 @@ img {
     justify-content: space-between;
     width: 130px;
     color: #595757;
+
 }
 
 .write-link {
@@ -45,10 +46,53 @@ img {
     align-items: center;
 }
 
+.write-link:visited {
+    color: #595757;
+}
+
 .write-link .write-icon {
     width: 25px;
     margin-right: 5px;
 }
 
+.blog-wrapper {
+    width: 100%;
+    height: calc(100vh - 15%);
+    text-align: center;
+}
+
+.header-profile-wrapper button {
+    padding: 5px 15px;
+    border: none;
+    background-color: rgb(120, 192, 120);
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.write-blog-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 0;
+}
+
+.write-blog-wrapper input:nth-child(1) {
+    height: 50px;
+    width: 40%;
+    font-size: 40px;
+    border: none;
+    outline: none;
+}   
+
+.write-blog-wrapper input:nth-child(2) {
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+    display: flex;
+    border: none;
+    outline: none;
+}
 
 
