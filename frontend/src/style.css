@@ -55,12 +55,6 @@ img {
     margin-right: 5px;
 }
 
-.blog-wrapper {
-    width: 100%;
-    height: calc(100vh - 15%);
-    text-align: center;
-}
-
 .header-profile-wrapper button {
     padding: 5px 15px;
     border: none;
@@ -69,30 +63,3 @@ img {
     border-radius: 8px;
     cursor: pointer;
 }
-
-.write-blog-wrapper {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    margin: 20px 0;
-}
-
-.write-blog-wrapper input:nth-child(1) {
-    height: 50px;
-    width: 40%;
-    font-size: 40px;
-    border: none;
-    outline: none;
-}   
-
-.write-blog-wrapper input:nth-child(2) {
-    height: 50px;
-    width: 40%;
-    font-size: 20px;
-    display: flex;
-    border: none;
-    outline: none;
-}
-
-
