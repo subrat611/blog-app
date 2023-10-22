@@ -63,3 +63,28 @@ img {
     border-radius: 8px;
     cursor: pointer;
 }
+
+/* blog part */
+
+.blog-wrapper {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-container .blog-title,
+.blog-container .blog-content{
+    margin-top: 15px;
+}
+
+.border-line {
+    border: 1px solid #59575736;
+    margin-top: 30px;
+    width: 750px;
+}
